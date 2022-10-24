@@ -1,9 +1,12 @@
 body{
-  background-color: rgb(19, 19, 52);
-  color: #fff;
+  background-color:#202040;
+  color: #E4F5DA;
 }
 
 .cards__container{
+  margin-top: 15px;
+  margin-left:5px;
+  margin-right: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,4 +14,10 @@ body{
 
 .heading{
   text-align: center;
+ 
+
+
+    width: 100%;
+    display: block;
+    
 }

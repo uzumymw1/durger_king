@@ -1,57 +1,74 @@
 :root {
-  --primary-color: #e0c521;
+  --primary-color: #E4F5DA;
 }
 
 .btn {
   padding: 0.6rem 0.8rem;
-  font-size: 1.2rem;
+
+  
+  text-shadow:
+  0 0 30px #000;
+
   text-align: center;
   border: 0;
   outline: none;
   border-radius: 10px;
   width: 120px;
   margin-left: 10px;
+  margin-right: 10px;
   box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
   cursor: pointer;
+  
+  
 }
+
 
 .btn.add {
-  background-color: var(--primary-color);
+  
+border: 2px solid  #39E173;
+color:#39E173;
+background-color: #151730;
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
+
+
 .btn.remove {
-  background-color: tomato;
+ 
+  border: 2px solid  #F43643;
+  color:#F43643;
+  background-color: #151730;
+    font-weight: bold;
+       font-size: 1.15rem;
 }
 
 .btn.checkout {
-  background-color: rgb(38, 121, 38);
-  width: 150px;
-  color: #fff;
-  font-size: 14px;
+ 
+  color : var(--primary-color);
+
+ 
+  background-color: #39E173;
+  font-weight: bold;
+  text-shadow:
+  0 0 17px #000;
+
+ 
+ 
+  font-size: 1.15rem;
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.98) ;
+
+ 
+
+  
 }
 
-.btn.add:hover {
-  background-color: #cab320;
-}
 
-.btn.add:active {
-  background-color: #ad9a1c;
-}
 
-.btn.remove:hover {
-  background-color: rgb(209, 83, 61);
-}
-.btn.remove:active {
-  background-color: rgb(185, 73, 54);
-}
 
-.btn.checkout:hover {
-  background-color: rgb(41, 141, 41);
-}
-.btn.checkout:active {
-  background-color: rgb(30, 93, 41);
-}
+
+
+
